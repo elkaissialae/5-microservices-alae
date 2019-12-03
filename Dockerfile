@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER xavier
+MAINTAINER Anas
 RUN apt-get update \
 && apt-get install -y vim git \
 && apt-get clean \
